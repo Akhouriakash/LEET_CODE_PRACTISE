@@ -30,6 +30,7 @@ public class reverse_bits {
 
         int reversed = obj.rev_bits(num);
         System.out.println("Reversed bits output: " + reversed);
+       System.out.println("Reversed bits output: " + Integer.toUnsignedLong(reversed));
 
         sc.close();
     }
