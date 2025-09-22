@@ -42,3 +42,22 @@ public class Rem_duplic_sort_arr {
         }
     }
 }
+
+
+/*  leetcode : 26 udemy , T.C : O(N) ,S.C :O(1)
+
+    public int removeDupli(int[] nums){
+        int lastUniqueIndex = 1;
+        for(int i=0;i<nums.length-1;i++){
+        if(nums[lastUniqueIndex] != nums[i]){
+            nums[lastUniqueIndex + 1] = nums[i];
+            lastUniqueIndex++;    
+        }
+        }
+        return lastUniqueIndex+1;
+    }
+ 
+
+
+
+ */

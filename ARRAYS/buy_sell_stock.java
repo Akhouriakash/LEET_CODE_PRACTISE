@@ -35,3 +35,18 @@ public class buy_sell_stock {
         return maxProfit;
     }
 }
+
+
+// best time to buy and sell stock   // T.C : O(N)  ,, S.C : O(1)  // leetcode : 122
+/*
+public int maxProfit(int prices[]){
+    int maxProfit = 0;
+    for(int i=0;i<prices.length-1;i++){
+        if(prices[i+1] > prices[i]){
+            maxProfit += (prices[i+1] - prices[i]);
+        }
+    }
+    return maxProfit;
+}
+
+*/
